@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+nav {
+  font-size: 13px;
+  background-color: #fff;
+}
+nav .nav-item .nav-link {
+  border-radius: 20px;
+  color: black;
+}
+nav .nav-item .nav-link:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+#slider {
+  margin-top: 4.2em;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 35rem;
+  background-color: rgb(2, 2, 10);
+}
+
+.card {
+  transition: transform 0.8s;
+  border-radius: 20px;
+}
+.card:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+#div__Sustainability img {
+  width: 65%;
+  height: 65%;
+  size: 100% 100%;
+  transition: 1s;
+}
+#div__Sustainability h6 {
+  cursor: pointer;
+}
+#div__Sustainability .active {
+  border-bottom: 3px black;
+}
+
+#tvaudio {
+  background-color: bisque;
+}
+
+.accordion-body a:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.imagecontainer {
+  overflow: hidden;
+}
+
+.divtwoimage {
+  transform-origin: 65% 75%;
+  transition: transform 0.4s, filter 0.5s ease-out;
+}
+.divtwoimage:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.feedback {
+  position: fixed;
+  right: 0px;
+  top: 50%;
+  border: none;
+  z-index: 99999990;
+  cursor: pointer;
+}
+
+footer i:hover {
+  cursor: pointer;
+}
+footer span:hover {
+  cursor: pointer;
+}
+
+.animatedtext h1::after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px black;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.animatedtext h1:hover::after {
+  transform: scaleX(1);
+}
+.animatedtext h1:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .carousel-item {
+    width: 100%;
+    height: 28rem;
+    background-color: rgb(2, 2, 10);
+  }
+}
+@media screen and (max-width: 500px) {
+  .carousel-item {
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(2, 2, 10);
+  }
+}/*# sourceMappingURL=style.css.map */
